@@ -1,8 +1,12 @@
 const page = (
-    <div>
-        <h1>Fitness for everyone!</h1>
-        <p>This is something new</p>
-    </div>
+    <nav>
+        <h1>Dragon Fitness</h1>
+        <ul>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
 );
 
 ReactDOM.render(
@@ -10,13 +14,13 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-// ReactDOM.render(
-//   <ul>
-//     <li>Gym</li>
-//     <li>Protein</li>
-//   </ul>,
-//   document.getElementById("hood") 
-// );
+ReactDOM.render(
+  <ul>
+    <li>Gym</li>
+    <li>Protein</li>
+  </ul>,
+  document.getElementById("hood") 
+);
 
 // function MainContent() {
 //     return (
