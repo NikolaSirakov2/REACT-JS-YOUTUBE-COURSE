@@ -1,3 +1,5 @@
+ReactDOM.render(<h1>Hello</h1>, document.getElementById("root"));
+
 // const page = (
 //     <nav>
 //         <h1>Dragon Fitness</h1>
