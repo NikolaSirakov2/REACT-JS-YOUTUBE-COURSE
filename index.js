@@ -1,24 +1,24 @@
 // ReactDOM.render(<h1>FITNESS SAIT</h1>, document.getElementById("root"));
 
-function MainContent() {
-  return <h1>FITNESS SAIT</h1>;
-}
+// function MainContent() {
+//   return <h1>FITNESS SAIT</h1>;
+// }
 
-function FitnessStuff() {
-  return <h3>FITNESS ITEMS</h3>;
-}
+// function FitnessStuff() {
+//   return <h3>FITNESS ITEMS</h3>;
+// }
 
-ReactDOM.render(
-  <MainContent />,
+// ReactDOM.render(
+//   <MainContent />,
 
-  document.getElementById("root")
-);
+//   document.getElementById("root")
+// );
 
-ReactDOM.render(
-  <FitnessStuff />,
+// ReactDOM.render(
+//   <FitnessStuff />,
 
-  document.getElementById("bar")
-);
+//   document.getElementById("bar")
+// );
 
 const page = (
   <nav>
@@ -30,5 +30,5 @@ const page = (
   </nav>
 );
 
-ReactDOM.render(page, document.getElementById("hood"));
+ReactDOM.createRoot(document.getElementById("hood")).render(page);
 
