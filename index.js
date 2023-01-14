@@ -10,15 +10,14 @@ function FitnessStuff() {
 
 ReactDOM.render(
   <MainContent />,
-//   <FitnessStuff />,
 
   document.getElementById("root")
 );
 
 ReactDOM.render(
-    <FitnessStuff />,
+  <FitnessStuff />,
 
-    document.getElementById("bar")
+  document.getElementById("bar")
 );
 
 const page = (
@@ -33,7 +32,3 @@ const page = (
 
 ReactDOM.render(page, document.getElementById("hood"));
 
-// const hola = document.createElement("h1");
-// hola.textContent = "THIS IS A TEST";
-// hola.className = "header";
-// document.getElementById("bar").append(hola);
