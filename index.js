@@ -22,4 +22,12 @@ const page = (
   </nav>
 );
 
+const paragraf = (
+    <nav>
+        <p>This is React fitness sait</p>
+    </nav>
+);
+
 ReactDOM.createRoot(document.getElementById("hood")).render(page);
+
+ReactDOM.createRoot(document.getElementById("para")).render(paragraf);
