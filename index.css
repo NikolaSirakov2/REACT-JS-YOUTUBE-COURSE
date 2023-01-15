@@ -3,6 +3,6 @@ html, body {
     padding: 0;
 }
 
-.header {
-    font-style: italic;
+html, body.image {
+    width: 40px;
 }

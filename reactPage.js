@@ -1,5 +1,6 @@
 const head = (
     <div>
+        <img src="logo2.png" width="240px" />
         <h1>Fun facts about React</h1>
     </div>
 )
@@ -17,4 +18,4 @@ const list = (
 )
 
 ReactDOM.createRoot(document.getElementById("root")).render(head);
-ReactDOM.createRoot(document.getElementById("hood")).render(list)
+ReactDOM.createRoot(document.getElementById("hood")).render(list);
