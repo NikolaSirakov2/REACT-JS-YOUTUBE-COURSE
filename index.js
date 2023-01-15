@@ -1,11 +1,18 @@
-// ReactDOM.render(<h1>FITNESS SAIT</h1>, document.getElementById("root"));
+function HeaderEle() {
+  return (
+    <header>
+      <nav>
+        <img src="fitnessLogo.jpg" width="190px" />
+        <h1>FITNESS SAIT</h1>
+      </nav>
+    </header>
+  );
+}
 
-function MainContent() {
+function Body() {
   return (
     <div>
-        <img src="fitnessLogo.jpg" width="190px"/>
-      <h1>FITNESS SAIT</h1>
-      <h3>FITNESS ITEMS</h3>
+      <h5>FITNESS ITEMS</h5>
       <ul>
         <li>Food</li>
         <li>Suplements</li>
@@ -16,6 +23,24 @@ function MainContent() {
   );
 }
 
+function Foot() {
+  return (
+    <footer>
+      <small>© 2023 Nikola development. All rights reserved.</small>
+    </footer>
+  );
+}
 
+function MainContent() {
+  return (
+    <div>
+      <HeaderEle />
+      <Body />
+      <Foot />
+    </div>
+  );
+}
 
-ReactDOM.createRoot(document.getElementById("root")).render(<MainContent />);
+// ReactDOM.createRoot(document.getElementById("root")).render(<HeaderEle />);
+ReactDOM.createRoot(document.getElementById("hood")).render(<MainContent />);
+// ReactDOM.createRoot(document.getElementById("para")).render(<Foot />);
