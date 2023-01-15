@@ -1,9 +1,13 @@
-function HeaderEle() {
+function Header() {
   return (
     <header>
-      <nav>
-        <img src="fitnessLogo.jpg" width="190px" />
-        <h1>FITNESS SAIT</h1>
+      <nav className="nav">
+        <img src="fitnessLogo.jpg" className="image" />
+        <ul className="head-list">
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
       </nav>
     </header>
   );
@@ -12,8 +16,9 @@ function HeaderEle() {
 function Body() {
   return (
     <div>
+      <h1>FITNESS SAIT</h1>
       <h5>FITNESS ITEMS</h5>
-      <ul>
+      <ul className="fit-items">
         <li>Food</li>
         <li>Suplements</li>
         <li>Clothes</li>
@@ -34,13 +39,11 @@ function Foot() {
 function MainContent() {
   return (
     <div>
-      <HeaderEle />
+      <Header />
       <Body />
       <Foot />
     </div>
   );
 }
 
-// ReactDOM.createRoot(document.getElementById("root")).render(<HeaderEle />);
 ReactDOM.createRoot(document.getElementById("hood")).render(<MainContent />);
-// ReactDOM.createRoot(document.getElementById("para")).render(<Foot />);

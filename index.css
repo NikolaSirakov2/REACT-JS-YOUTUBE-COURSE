@@ -1,0 +1,46 @@
+body {
+    margin: 40px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header {
+    background-color: pink;
+} */
+
+.head-list {
+    list-style: none;
+    display: flex;
+    margin: 20px;
+}
+
+.nav {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-list > li {
+    
+    padding: 20px;
+}
+
+.image {
+    width: 240px;
+}
+
+div {
+    text-align: center;
+    color: black;
+    background-color: coral;
+}
+
+.fit-items {
+    padding-left: 0px;
+    list-style: none;
+}
+
+footer {
+    color: antiquewhite;
+    background-color: gray;
+}
